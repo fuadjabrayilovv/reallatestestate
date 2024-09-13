@@ -1,0 +1,635 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+
+@media (max-width: 768px) {
+    /* Mobile styles */
+    .body__row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .body__title {
+        font-size: 25px;
+    }
+
+    .body__image {
+        max-width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .text__title {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .main__subtitle {
+        margin-bottom: 20px;
+    }
+
+    .footer_row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer__explore {
+        margin-bottom: 20px;
+    }
+    .logo_img{
+        display: none;
+    }
+    .navigate{
+        margin-bottom: 25px;
+    }
+    .header__links{
+
+        text-align: center;
+    }
+    .image{
+        display: none;
+    }
+    .our__agents{
+        display: none;
+    }
+    .body__milestone{
+        flex-wrap: wrap;
+    }
+
+}
+
+
+
+
+.content__body{
+    background-color: #f4f4f4;
+    margin-top: -35px;
+}
+/* 
+.body__milestone{
+    display: flex;
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+
+} */
+.first__icon{
+    max-width: 84px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+
+}
+.second__number{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+.second__icon{
+
+    max-width: 84px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+
+}
+.third__icon{
+
+    max-width: 84px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+
+}
+.fourth__icon{
+
+    max-width: 84px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+
+}
+
+.body__background{
+    background: url("img/backgroundOfEvery.jpeg");
+    height: 100px;
+    padding-top: 35px;
+    font-size: 35px;
+    padding-left: 35px;
+    opacity: 90%;
+}
+
+
+.home{
+    margin-right: 40px;
+
+}
+.home_link{
+    color: rgb(47, 49, 141);
+    
+
+}
+.about_us{
+    margin-right: 40px;
+
+
+}
+.about_us_link{
+    color: rgb(47, 49, 141);
+
+}
+.sell_your_house{
+    word-spacing: 5px;
+    margin-right: 40px;
+
+
+}
+.sell_your_house_link{
+    color: rgb(47, 49, 141);
+
+}
+.current_projects{
+    margin-right: 40px;
+    word-spacing: 5px;
+
+
+}
+.current_projects_link{
+    color: rgb(47, 49, 141);
+
+}
+.blog{
+
+
+}
+.blog_link{
+    color: rgb(47, 49, 141);
+
+}
+
+
+.header{
+    background-color: rgb(47, 49, 141);
+    height: 50px;
+    
+
+}
+.header__links{
+    display: flex;
+    padding-top: 28px;
+    justify-content: end;
+    max-width: 645px;
+    margin: 0 auto;
+
+
+}
+.header__links_contractors{
+    
+    margin-left: 20px;
+
+
+}
+.contractors{
+
+    color: white;
+}
+.header__links_investors{
+
+    margin-left: 20px;
+
+}
+.investors{
+    color: white;
+
+}
+.header__links_agents{
+    margin-left: 20px;
+
+
+}
+.agents{
+    color: white;
+
+}
+.header__links_contact_us{
+    margin-left: 20px;
+
+
+}
+.contact_us{
+    color: white;
+
+}
+.header__links_number{
+    margin-left: 20px;
+    color: white;
+
+}
+
+.content__logo{
+    display: flex;
+    max-width: 1045px;
+    margin: 0 auto;
+
+}
+.logo_img{
+    max-width: 313px;
+    max-height: 222px;
+
+}
+.navigate{
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+    margin-left: 70px;
+
+
+}
+
+
+.footer{
+    /* height: 222px; */
+    background-color: rgb(47, 49, 141);
+
+
+}
+.footer_row{
+
+
+    display: flex;
+    max-width: 1006px;
+    margin: 0 auto;
+    justify-content: space-between;
+    color: #fff;
+    padding-top: 37px;
+}
+.footer__explore{
+    
+
+}
+.footer_navigate{
+
+}
+.navigate__title{
+    font-size: 40px;
+
+}
+.footer_home{
+    margin-top: 6px;
+    margin-bottom: 6px;
+
+
+}
+.footer__home_link{
+    color: #fff;
+
+
+}
+.footer_about_us{
+
+    margin-bottom: 6px;
+}
+.footer__about_us_link{
+    color: #fff;
+
+
+}
+.footer_sell_your_house{
+    margin-bottom: 6px;
+
+}
+.footer__sell_your_house_link{
+    color: #fff;
+
+
+}
+.footer_current_projects{
+    margin-bottom: 6px;
+
+}
+.footer__current_projects_link{
+    color: #fff;
+
+
+}
+.footer_blog{
+    margin-bottom: 6px;
+
+}
+.footer__blog_link{
+    color: #fff;
+
+
+}
+.contact_us__title{
+
+    font-size: 40px;
+
+}
+.address{
+    margin-bottom: 6px;
+
+}
+.number{
+    margin-bottom: 6px;
+
+}
+.email{
+    margin-bottom: 6px;
+
+}
+
+
+
+.social__title{
+    font-size: 40px;
+
+}
+
+/* ----------------------------------------------------- */
+
+.body {
+    max-width: 1095px;
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Or another light color for better contrast */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Soft shadow for depth */
+}
+
+.body__header {
+    margin-bottom: 30px;
+    text-align: center; /* Center-align the header for emphasis */
+}
+
+.body__title {
+    font-size: 28px; /* Slightly smaller for better readability */
+    color: #333333; /* Darker text color for contrast */
+    margin-bottom: 20px;
+}
+
+.body__subtitle {
+    font-size: 16px; /* Slightly larger for readability */
+    line-height: 1.6; /* Increased line-height for readability */
+    color: #555555; /* Softer color for the subtitle */
+    padding: 0 10px; /* Add padding to not touch the edges */
+}
+
+.body__row {
+    display: flex;
+    justify-content: space-between; /* Maintain space between elements */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.body__photo {
+    flex-basis: 50%; /* Take up half of the container */
+    max-width: 50%; /* Use max-width for responsiveness */
+    padding: 10px; /* Add some padding */
+}
+
+.our__agents {
+    width: 100%;
+    height: auto; /* Keep aspect ratio */
+    border-radius: 4px; /* Soften the edges */
+}
+
+.body__buyer {
+    flex-basis: 45%; /* Adjust size to allow spacing */
+    max-width: 45%; /* Adjust width accordingly */
+    padding: 10px;
+    border: 1px solid #dddddd; /* Softer border color */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background for the form area */
+}
+
+.body__buyer_title {
+    text-align: center;
+    color: white;
+    background-color: rgb(47, 49, 141);
+    padding: 15px 0; /* Increase padding for better spacing */
+    font-size: 18px; /* Increase font size for visibility */
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.form__input {
+    border: 1px solid #cccccc; /* Softer border color */
+    margin-bottom: 15px; /* Increase margin for spacing */
+    padding: 8px; /* Padding inside input fields */
+    font-size: 14px; /* Slightly larger font size */
+    border-radius: 4px; /* Match border-radius with other elements */
+}
+
+.form__label {
+    margin-bottom: 5px; /* Space between label and input */
+    font-size: 16px; /* Larger font size for readability */
+    color: #333333; /* Dark color for better readability */
+}
+
+.body__buyer_footer {
+    background-color: rgb(47, 49, 141);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px; /* Larger font size */
+    margin-top: 30px; /* Space it from the form */
+    border-radius: 4px; /* Rounded corners for consistency */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Transition for a hover effect */
+}
+
+.body__buyer_footer:hover {
+    background-color: rgba(47, 49, 141, 0.8); /* Slightly lighter on hover */
+}
+
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .body__row {
+        flex-direction: column;
+    }
+
+    .body__photo, .body__buyer {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
+.body__milestone {
+    display: flex;
+    justify-content: space-between; /* Distribute space evenly */
+    flex-wrap: wrap; /* Allow items to stack on smaller screens */
+    background-color: #f8f8f8; /* Slight background color for contrast */
+    padding: 20px 0; /* Vertical padding */
+}
+
+.common {
+    flex-basis: 23%; /* Give each item a percentage of the full width minus margins/padding */
+    margin: 10px; /* Space between items */
+    padding: 15px;
+    text-align: center; /* Center the text */
+    background-color: #ffffff; /* White background for each item */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Subtle shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.common:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Increased shadow on hover for depth */
+}
+
+.first__number, .second__number, .third__number, .fourth__number {
+    font-size: 24px; /* Larger font size */
+    color: rgb(47, 49, 141); /* Match theme color */
+    margin-bottom: 10px; /* Space after the number */
+}
+
+.first__title, .second__title, .third__title, .fourth__title {
+    font-weight: bold; /* Bold for importance */
+    margin-bottom: 15px; /* Space after the title */
+}
+
+.first__icon, .second__icon, .third__icon, .fourth__icon {
+    width: 50px; /* Fixed width */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 15px; /* Space after the icon */
+}
+
+.first__subtitle, .second__subtitle, .third__subtitle, .fourth__subtitle {
+    font-size: 14px; /* Readable font size */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .common {
+        flex-basis: 100%; /* Stack on smaller screens */
+        margin: 10px 0; /* Adjust margin for vertical stack */
+    }
+}
+.body__photo {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100%; /* Ensure the container has a height */
+}
+
+
+.footer {
+    background-color: rgb(47, 49, 141);
+    color: #fff;
+    padding: 40px 0; /* More padding for a spacious look */
+    font-family: 'Arial', sans-serif; /* Consistent font-family */
+}
+
+.footer_row {
+    display: flex;
+    justify-content: space-around; /* Changed from space-between for better spacing on wider screens */
+    flex-wrap: wrap; /* Wrap on smaller screens */
+    max-width: 1200px; /* Adjust max width for better centering */
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px; /* Padding for content within the footer */
+}
+
+.footer_column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns items to the left */
+    padding: 0 10px; /* Padding around each column */
+    min-width: 150px; /* Ensures that columns don't become too narrow */
+}
+
+.footer_title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.footer_link, .footer_text {
+    font-size: 1rem;
+    color: #ddd; /* Slightly lighter color for text */
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.footer_link:hover {
+    color: #fff; /* White color on hover for links */
+    text-decoration: underline; /* Underline on hover for better indication */
+}
+
+.footer__contact_us, .footer__social {
+    align-items: center; /* Center align for these specific columns if desired */
+}
+
+.social_links {
+    display: flex;
+    justify-content: start;
+}
+
+.social_link {
+    margin-right: 15px; /* Spacing between social icons */
+    display: inline-block; /* To apply margin and padding */
+}
+
+.social_icon {
+    width: 20px; /* Example size, adjust as needed */
+    height: 20px; /* Maintains aspect ratio */
+    fill: #ddd; /* Example fill color, if using SVGs */
+    transition: fill 0.3s ease;
+}
+
+.social_icon:hover {
+    fill: #fff; /* White fill on hover */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .footer_row {
+        justify-content: center;
+    }
+
+    .footer_column {
+        align-items: center; /* Center the content on smaller screens */
+        margin-bottom: 20px; /* Spacing between stacked columns */
+    }
+}
+

@@ -1,0 +1,592 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+@media (max-width: 768px) {
+    /* Mobile styles */
+    .body__row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .body__title {
+        font-size: 25px;
+    }
+
+    .body__image {
+        max-width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .text__title {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .main__subtitle {
+        margin-bottom: 20px;
+    }
+
+    .footer_row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer__explore {
+        margin-bottom: 20px;
+    }
+    .logo_img{
+        display: none;
+    }
+    .navigate{
+        margin-bottom: 25px;
+    }
+    .header__links{
+
+        text-align: center;
+    }
+    .image{
+        display: none;
+    }
+}
+
+.body__buyer{
+    border: 1px solid black;
+
+}
+.button__submit{
+    background-color: rgb(47, 49, 141);
+    color: white;
+    text-align: center;
+
+
+
+}
+.form{
+    padding-top: 30px;
+    max-width: 268px;
+    margin: 0 auto;
+
+}
+.form__input{
+    margin-top: 7px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    height: 38px;
+    width: 238px;
+
+}
+.form__label{
+
+}
+.subtitle_1{
+    margin-bottom:43px;
+    font-size: 20px;
+
+}
+.subtitle_2{
+    margin-bottom:43px;
+    font-size: 20px;
+
+}
+.subtitle_3{
+    margin-bottom:43px;
+    font-size: 20px;
+
+}
+.subtitle_4{
+    margin: 0 0 20px 0;
+    font-size: 20px;
+
+}
+
+
+.body__content{
+
+}
+.body__row{
+    display: flex;
+    max-width: 1141px;
+    margin: 0 auto;
+    margin-top: 40px;
+    justify-content: space-between;
+
+}
+.body__text{
+   
+    max-width: 762px;
+
+}
+.text__title{
+    margin-bottom: 35px;
+    font-size: 35px;
+    opacity: 85%;
+
+}
+
+
+
+/* -------------------------------------------------- */
+
+
+
+
+
+.footer{
+    margin-top: 50px;
+    /* height: 222px; */
+    background-color: rgb(47, 49, 141);
+
+
+}
+.footer_row{
+
+
+    display: flex;
+    max-width: 1006px;
+    margin: 0 auto;
+    justify-content: space-between;
+    color: #fff;
+    padding-top: 37px;
+}
+.footer__explore{
+    
+
+}
+.footer_navigate{
+
+}
+.navigate__title{
+    font-size: 40px;
+
+}
+.footer_home{
+    margin-top: 6px;
+    margin-bottom: 6px;
+
+
+}
+.footer__home_link{
+    color: #fff;
+
+
+}
+.footer_about_us{
+
+    margin-bottom: 6px;
+}
+.footer__about_us_link{
+    color: #fff;
+
+
+}
+.footer_sell_your_house{
+    margin-bottom: 6px;
+
+}
+.footer__sell_your_house_link{
+    color: #fff;
+
+
+}
+.footer_current_projects{
+    margin-bottom: 6px;
+
+}
+.footer__current_projects_link{
+    color: #fff;
+
+
+}
+.footer_blog{
+    margin-bottom: 6px;
+
+}
+.footer__blog_link{
+    color: #fff;
+
+
+}
+
+
+
+
+
+
+.footer__contact_us{
+
+}
+.contact_us__title{
+
+    font-size: 40px;
+
+}
+.address{
+    margin-bottom: 6px;
+
+}
+.number{
+    margin-bottom: 6px;
+
+}
+.email{
+    margin-bottom: 6px;
+
+}
+
+
+
+.footer__social{
+
+}
+.social__title{
+    font-size: 40px;
+
+}
+.instagram{
+
+}
+.facebook{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------- */
+
+.text__subtitle{
+
+}
+.text__title_2{
+    margin-bottom: 35px;
+    font-size: 35px;
+    opacity: 85%;
+
+
+}
+
+.sub3_subtitle_1{
+    margin-bottom: 25px;
+
+}
+.sub3_subtitle_2{
+
+}
+
+
+.text__subtitle_2{
+    font-size: 20px;
+    margin-bottom:15px;
+
+}
+.text__title_3{
+    margin-bottom: 35px;
+    font-size: 35px;
+    opacity: 85%;
+
+}
+.text__subtitle_3{
+    font-size: 20px;
+
+}
+.body__form{
+
+}
+.form{
+
+}
+.form__label{
+
+}
+.form__input{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.body__background{
+    background: url("img/backgroundOfEvery.jpeg");
+    height: 100px;
+    padding-top: 35px;
+    font-size: 35px;
+    padding-left: 35px;
+    opacity: 90%;
+}
+
+
+.home{
+    margin-right: 40px;
+
+}
+.home_link{
+    color: rgb(47, 49, 141);
+    
+
+}
+.about_us{
+    margin-right: 40px;
+
+
+}
+.about_us_link{
+    color: rgb(47, 49, 141);
+
+}
+.sell_your_house{
+    word-spacing: 5px;
+    margin-right: 40px;
+
+
+}
+.sell_your_house_link{
+    color: rgb(47, 49, 141);
+
+}
+.current_projects{
+    margin-right: 40px;
+    word-spacing: 5px;
+
+
+}
+.current_projects_link{
+    color: rgb(47, 49, 141);
+
+}
+.blog{
+
+
+}
+.blog_link{
+    color: rgb(47, 49, 141);
+
+}
+
+
+.header{
+    background-color: rgb(47, 49, 141);
+    height: 50px;
+    
+
+}
+.header__links{
+    display: flex;
+    padding-top: 28px;
+    justify-content: end;
+    max-width: 645px;
+    margin: 0 auto;
+
+
+}
+.header__links_contractors{
+    
+    margin-left: 20px;
+
+
+}
+.contractors{
+
+    color: white;
+}
+.header__links_investors{
+
+    margin-left: 20px;
+
+}
+.investors{
+    color: white;
+
+}
+.header__links_agents{
+    margin-left: 20px;
+
+
+}
+.agents{
+    color: white;
+
+}
+.header__links_contact_us{
+    margin-left: 20px;
+
+
+}
+.contact_us{
+    color: white;
+
+}
+.header__links_number{
+    margin-left: 20px;
+    color: white;
+
+}
+
+.content__logo{
+    display: flex;
+    max-width: 1045px;
+    margin: 0 auto;
+
+}
+.logo_img{
+    max-width: 313px;
+    max-height: 222px;
+
+}
+.navigate{
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+    margin-left: 70px;
+
+
+}
+
+/* Text content styling */
+.body__content {
+    display: flex;
+    justify-content: space-between; /* Separate text and form */
+    align-items: flex-start; /* Align the tops of the text and form */
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.body__text {
+    width: 60%; /* Assign 60% width to text content */
+    padding-right: 20px; /* Add some padding between text and form */
+}
+
+/* Titles and subtitles styling */
+.text__title {
+    font-size: 1.75rem; /* Increase size for main title */
+    font-weight: bold; /* Bold for importance */
+    margin-bottom: 0.5em; /* Space below the title */
+    color: #333; /* Dark color for better readability */
+}
+
+/* Subtitle styling for better readability */
+.subtitle_1, .subtitle_2, .subtitle_3, .subtitle_4 {
+    font-size: 1rem; /* Adjust font size for subtitles */
+    margin-bottom: 1em; /* Spacing between paragraphs */
+    line-height: 1.6; /* Line height for better readability */
+}
+
+/* Form styling */
+.body__buyer {
+    width: 35%; /* Assign 35% width to the form */
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color for the form area */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Soft shadow for depth */
+    height: 600px;
+}
+
+.body__buyer_title {
+    font-size: 1.25rem; /* Slightly larger font size for form title */
+    background-color: rgb(47, 49, 141); /* Brand color */
+    color: #fff; /* White text for contrast */
+    padding: 10px 0; /* Padding top and bottom */
+    margin-bottom: 20px; /* Space below title */
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Form fields styling */
+.form__input {
+    width: 100%; /* Full width fields within the form */
+    padding: 10px; /* Padding inside the fields for comfort */
+    margin-bottom: 10px; /* Space between fields */
+    border: 1px solid #ccc; /* Lighter border color */
+    border-radius: 4px; /* Slightly rounded corners */
+}
+
+/* Submit button styling */
+.button__submit {
+    width: auto; /* Width to fit content */
+    padding: 10px 20px; /* Comfortable padding */
+    border-radius: 4px; /* Consistent border-radius */
+    font-size: 1rem; /* Matching font size */
+    margin-top: 20px; /* Space above button */
+    
+}
+
+@media (max-width: 1024px) {
+    /* Adjust layout for tablet view */
+    .body__content {
+        flex-direction: column; /* Stack text and form */
+    }
+
+    .body__text, .body__buyer {
+        width: 100%; /* Full width for both elements */
+    }
+
+    .body__buyer {
+        margin-top: 20px; /* Space between text and form on smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    /* Adjust layout for mobile view */
+    .body__text {
+        padding: 0; /* Remove padding on smaller screens */
+    }
+}

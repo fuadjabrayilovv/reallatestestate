@@ -1,0 +1,646 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    /* Mobile styles */
+    .body__row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .body__title {
+        font-size: 25px;
+    }
+
+    .body__image {
+        max-width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .text__title {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .main__subtitle {
+        margin-bottom: 20px;
+    }
+
+    .footer_row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer__explore {
+        margin-bottom: 20px;
+    }
+    .logo_img{
+        display: none;
+    }
+    .navigate{
+        margin-bottom: 25px;
+    }
+    .header__links{
+
+        text-align: center;
+    }
+    .image{
+        display: none;
+    }
+    .body__title{
+        background: url("img/Logo\ Transparency\ option10-01.png") no-repeat;
+    }
+    .subtitle_1{
+        height: 250px;
+    }
+    .subtitle_2{
+        height: 250px;
+    }
+    .subtitle_3{
+        height: 250px;
+    }
+    .subtitle_4{
+        height: 250px;
+    }
+    
+}
+
+
+.body__text{
+    max-width: 995px;
+    margin: 0 auto;
+    
+
+}
+.lower__side{
+    background-color:#fffafa;
+    padding-bottom: 30px;
+}
+.body__title{
+    margin-top: 50px;
+    font-size: 25px;
+    height: 115px;
+
+}
+.body__content{
+    display: flex;
+    justify-content: space-between;
+
+}
+.body__subtitle{
+    font-size: 15px;
+
+}
+.subtitle_1{
+    font-size: 20px;
+    max-width: 600px;
+    margin-bottom: 42px;
+
+}
+.subtitle_2{
+    font-size: 20px;
+    max-width: 666px;
+
+}
+.over__image{
+    height: 197px;
+}
+.subtitle_3{
+    margin-top: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+
+}
+.subtitle_4{
+    font-size: 20px;
+
+}
+.image{
+    width: 299px;
+    height: 197px;
+
+}
+.lower__text{
+    margin-top: 70px;
+
+}
+.lower__title{
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+.lower__list li{
+    margin-left: 30px;
+    margin-bottom: 3px;
+    font-size: 16px;
+
+}
+.lower__ul{
+
+}
+.lower__subtitle{
+    margin-top: 40px;
+    font-size: 17px;
+    margin-bottom: 80px;
+
+}
+
+
+
+/* ------------------------------------------------------------ */
+
+
+
+
+
+/* -------------------------------------------------- */
+
+
+
+
+
+.footer{
+    /* height: 222px; */
+    background-color: rgb(47, 49, 141);
+
+
+}
+.footer_row{
+
+
+    display: flex;
+    max-width: 1006px;
+    margin: 0 auto;
+    justify-content: space-between;
+    color: #fff;
+    padding-top: 37px;
+}
+.footer__explore{
+    
+
+}
+.footer_navigate{
+
+}
+.navigate__title{
+    font-size: 40px;
+
+}
+.footer_home{
+    margin-top: 6px;
+    margin-bottom: 6px;
+
+
+}
+.footer__home_link{
+    color: #fff;
+
+
+}
+.footer_about_us{
+
+    margin-bottom: 6px;
+}
+.footer__about_us_link{
+    color: #fff;
+
+
+}
+.footer_sell_your_house{
+    margin-bottom: 6px;
+
+}
+.footer__sell_your_house_link{
+    color: #fff;
+
+
+}
+.footer_current_projects{
+    margin-bottom: 6px;
+
+}
+.footer__current_projects_link{
+    color: #fff;
+
+
+}
+.footer_blog{
+    margin-bottom: 6px;
+
+}
+.footer__blog_link{
+    color: #fff;
+
+
+}
+
+
+
+
+
+
+.footer__contact_us{
+
+}
+.contact_us__title{
+
+    font-size: 40px;
+
+}
+.address{
+    margin-bottom: 6px;
+
+}
+.number{
+    margin-bottom: 6px;
+
+}
+.email{
+    margin-bottom: 6px;
+
+}
+
+
+
+.footer__social{
+
+}
+.social__title{
+    font-size: 40px;
+
+}
+.instagram{
+
+}
+.facebook{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+.body__background{
+    background: url("img/backgroundOfEvery.jpeg");
+    height: 100px;
+    padding-top: 35px;
+    font-size: 35px;
+    padding-left: 35px;
+    opacity: 90%;
+}
+
+
+.home{
+    margin-right: 40px;
+
+}
+.home_link{
+    color: rgb(47, 49, 141);
+    
+
+}
+.about_us{
+    margin-right: 40px;
+
+
+}
+.about_us_link{
+    color: rgb(47, 49, 141);
+
+}
+.sell_your_house{
+    word-spacing: 5px;
+    margin-right: 40px;
+
+
+}
+.sell_your_house_link{
+    color: rgb(47, 49, 141);
+
+}
+.current_projects{
+    margin-right: 40px;
+    word-spacing: 5px;
+
+
+}
+.current_projects_link{
+    color: rgb(47, 49, 141);
+
+}
+.blog{
+
+
+}
+.blog_link{
+    color: rgb(47, 49, 141);
+
+}
+
+
+.header{
+    background-color: rgb(47, 49, 141);
+    height: 50px;
+    
+
+}
+.header__links{
+    display: flex;
+    padding-top: 28px;
+    justify-content: end;
+    max-width: 645px;
+    margin: 0 auto;
+
+
+}
+.header__links_contractors{
+    
+    margin-left: 20px;
+
+
+}
+.contractors{
+
+    color: white;
+}
+.header__links_investors{
+
+    margin-left: 20px;
+
+}
+.investors{
+    color: white;
+
+}
+.header__links_agents{
+    margin-left: 20px;
+
+
+}
+.agents{
+    color: white;
+
+}
+.header__links_contact_us{
+    margin-left: 20px;
+
+
+}
+.contact_us{
+    color: white;
+
+}
+.header__links_number{
+    margin-left: 20px;
+    color: white;
+
+}
+
+.content__logo{
+    display: flex;
+    max-width: 1045px;
+    margin: 0 auto;
+
+}
+.logo_img{
+    max-width: 313px;
+    max-height: 222px;
+
+}
+.navigate{
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+    margin-left: 70px;
+
+
+}
+
+
+.footer {
+    background-color: rgb(47, 49, 141);
+    color: #fff;
+    padding: 40px 0; /* More padding for a spacious look */
+    font-family: 'Arial', sans-serif; /* Consistent font-family */
+}
+
+.footer_row {
+    display: flex;
+    justify-content: space-around; /* Changed from space-between for better spacing on wider screens */
+    flex-wrap: wrap; /* Wrap on smaller screens */
+    max-width: 1200px; /* Adjust max width for better centering */
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px; /* Padding for content within the footer */
+}
+
+.footer_column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns items to the left */
+    padding: 0 10px; /* Padding around each column */
+    min-width: 150px; /* Ensures that columns don't become too narrow */
+}
+
+.footer_title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.footer_link, .footer_text {
+    font-size: 1rem;
+    color: #ddd; /* Slightly lighter color for text */
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.footer_link:hover {
+    color: #fff; /* White color on hover for links */
+    text-decoration: underline; /* Underline on hover for better indication */
+}
+
+.footer__contact_us, .footer__social {
+    align-items: center; /* Center align for these specific columns if desired */
+}
+
+.social_links {
+    display: flex;
+    justify-content: start;
+}
+
+.social_link {
+    margin-right: 15px; /* Spacing between social icons */
+    display: inline-block; /* To apply margin and padding */
+}
+
+.social_icon {
+    width: 20px; /* Example size, adjust as needed */
+    height: 20px; /* Maintains aspect ratio */
+    fill: #ddd; /* Example fill color, if using SVGs */
+    transition: fill 0.3s ease;
+}
+
+.social_icon:hover {
+    fill: #fff; /* White fill on hover */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .footer_row {
+        justify-content: center;
+    }
+
+    .footer_column {
+        align-items: center; /* Center the content on smaller screens */
+        margin-bottom: 20px; /* Spacing between stacked columns */
+    }
+}
+
+/*****/
+
+/* Global reset and box sizing */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* Base body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background: #f9f9f9;
+}
+
+/* Container for content */
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+.header {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #3056d3; /* A color that matches your company logo */
+}
+
+/* Real Estate list styles */
+.real-estate-list {
+    margin: 20px 0;
+}
+
+.real-estate-list h2 {
+    font-size: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.real-estate-list ul {
+    padding-left: 20px;
+}
+
+.real-estate-list li {
+    margin-bottom: 5px;
+}
+
+/* Image styles */
+.image-style {
+    display: block;
+    max-width: 50%;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+}
+
+/* Footer styles */
+.footer {
+    margin-top: 20px;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Responsive image handling */
+img {
+    max-width: 100%;
+    height: auto;
+}

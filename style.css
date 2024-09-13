@@ -1,0 +1,837 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+@media (max-width: 1265px) {
+    /* Mobile styles */
+    .body__row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .body__title {
+        font-size: 25px;
+    }
+
+    .body__image {
+        max-width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .text__title {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .main__subtitle {
+        margin-bottom: 20px;
+    }
+
+    .footer_row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer__explore {
+        margin-bottom: 20px;
+    }
+    .logo_img{
+        display: none;
+    }
+    .navigate{
+        margin-bottom: 25px;
+    }
+    .header__links{
+
+        text-align: center;
+    }
+    .image{
+        display: none;
+    }
+    .options{
+        
+    }
+    .options{
+        display: flex;
+        align-items: center;   /* Vertical centering */
+        justify-content: center; 
+        
+    }
+    .options__row{
+        
+        
+    }
+    .content__logo{
+        display: none;
+    }
+}
+
+
+
+
+.options{
+    background-color: #f4f4f4;
+    /* height: 510px; */
+
+}
+.options__row{
+    padding-top: 50px;
+    display:flex;
+    max-width: 1245px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+
+}
+.options__buy_a_home{
+
+
+
+
+}
+
+
+
+
+
+
+.image{
+
+}
+
+
+
+
+
+.learn{
+    font-size: 50px;
+    padding-bottom: 5px;
+}
+.who{
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+
+
+.information_about_us{
+    
+    max-width: 645px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    height: auto;
+
+}
+.information__title{
+
+}
+.information__subtitle{
+    font-style: italic;
+    color: black;
+    
+
+}
+.read_more_about_us{
+    opacity: 0%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+
+}
+
+
+/* ---------------------------------------------------------- */
+
+
+/* 
+
+.footer{
+    background-color:rgb(47, 49, 141);
+    height: 95px;
+
+}
+.footer_row{
+
+    display: flex;
+    max-width: 645px;
+    margin: 0 auto;
+    padding-top: 30px;
+    justify-content: space-between;
+
+}
+.con_info{
+    color: #fff;
+
+}
+.address{
+
+}
+.phone_number{
+
+}
+.email{
+
+}
+.social{
+
+    color: #fff;
+}
+.instagram{
+
+} */
+
+
+
+/* -------------------------------------------------- */
+
+
+
+
+
+.footer{
+    /* height: 222px; */
+    background-color: rgb(47, 49, 141);
+
+
+}
+.footer_row{
+
+
+    display: flex;
+    max-width: 1006px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    color: #fff;
+    padding-top: 37px;
+}
+.footer__explore{
+    
+
+}
+.footer_navigate{
+
+}
+.navigate__title{
+    font-size: 40px;
+
+}
+.footer_home{
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+
+}
+.footer__home_link{
+    color: #fff;
+
+
+}
+.footer_about_us{
+
+    margin-bottom: 6px;
+}
+.footer__about_us_link{
+    color: #fff;
+
+
+}
+.footer_sell_your_house{
+    margin-bottom: 6px;
+
+}
+.footer__sell_your_house_link{
+    color: #fff;
+
+
+}
+.footer_current_projects{
+    margin-bottom: 6px;
+
+}
+.footer__current_projects_link{
+    color: #fff;
+
+
+}
+.footer_blog{
+    margin-bottom: 6px;
+
+}
+.footer__blog_link{
+    color: #fff;
+
+
+}
+
+
+
+
+
+
+.footer__contact_us{
+
+}
+.contact_us__title{
+
+    font-size: 40px;
+
+}
+.address{
+    margin-bottom: 6px;
+
+}
+.number{
+    margin-bottom: 6px;
+
+}
+.email{
+    margin-bottom: 6px;
+
+}
+
+
+
+.footer__social{
+
+}
+.social__title{
+    font-size: 40px;
+
+}
+.instagram{
+
+}
+.facebook{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------- */
+
+
+.title_sell{
+    
+}
+.title_our_team{
+    
+}
+.buy{
+    max-width: 344px;
+    width: 100%;
+    max-height: 233px;
+}
+.sell{
+    max-width: 344px;
+    width: 100%;
+    max-height: 233px;
+}
+.team{
+    max-width: 344px;
+    width: 100%;
+    max-height: 233px;
+}
+.options__element{
+    flex: 0 1 33.333%;
+
+}
+.options__buy_a_home{
+
+}
+.options__sell_a_home{
+
+}
+.options__our_team{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content__logo{
+    display: flex;
+    max-width: 1045px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.logo_img{
+    max-width: 313px;
+    width: 100%;
+    max-height: 222px;
+
+}
+.navigate{
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+    margin-left: 70px;
+
+
+}
+
+.photo_main{
+    max-width: 1440px;
+    width: 100%;
+    max-height: 482px;
+}
+.home{
+    margin-right: 40px;
+
+}
+.home_link{
+    color: rgb(47, 49, 141);
+    
+
+}
+.about_us{
+    margin-right: 40px;
+
+
+}
+.about_us_link{
+    color: rgb(47, 49, 141);
+
+}
+.sell_your_house{
+    word-spacing: 5px;
+    margin-right: 40px;
+
+
+}
+.sell_your_house_link{
+    color: rgb(47, 49, 141);
+
+}
+.current_projects{
+    margin-right: 40px;
+    word-spacing: 5px;
+
+
+}
+.current_projects_link{
+    color: rgb(47, 49, 141);
+
+}
+.blog{
+
+
+}
+.blog_link{
+    color: rgb(47, 49, 141);
+
+}
+
+
+.header{
+    background-color: rgb(47, 49, 141);
+    height: 50px;
+    
+
+}
+.header__links{
+    display: flex;
+    padding-top: 28px;
+    justify-content: end;
+    max-width: 645px;
+    width: 100%;
+    margin: 0 auto;
+
+
+}
+.header__instagram{
+    
+
+}
+.instagram_icon{
+
+    max-width: 18px;
+    width: 100%;
+    max-height: 18px;
+    margin-top: -3px;
+    margin-left: 20px;
+
+
+}
+.header__links_contractors{
+    
+    margin-left: 20px;
+
+
+}
+.contractors{
+
+    color: white;
+}
+.header__links_investors{
+
+    margin-left: 20px;
+
+}
+.investors{
+    color: white;
+
+}
+.header__links_agents{
+    margin-left: 20px;
+
+
+}
+.agents{
+    color: white;
+
+}
+.header__links_contact_us{
+    margin-left: 20px;
+
+
+}
+.contact_us{
+    color: white;
+
+}
+.header__links_number{
+    margin-left: 20px;
+    color: white;
+
+}
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center align the .options */
+    flex-wrap: wrap; /* Allow the items to wrap */
+    background-color: #f4f4f4;
+}
+
+.options__row {
+    display: flex;
+    justify-content: space-around; /* Distribute space around items */
+    flex-wrap: wrap; /* Allow the items to wrap */
+    max-width: 1200px; /* Max width before items start to wrap */
+    margin: 0 auto; /* Center the .options__row */
+    padding: 20px; /* Add some padding */
+}
+
+.options__element {
+    flex: 1 1 30%; /* Flex-grow, flex-shrink, flex-basis */
+    margin: 10px;
+    /* Set a min-width to ensure they wrap and do not get too narrow */
+    min-width: 300px;
+    box-sizing: border-box;
+}
+
+/* Images inside the .options__element should be responsive */
+.options__element img {
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    background-color: #fff;
+    
+    /* Remove the min-width and margin-right to allow for responsive behavior */
+}
+
+.title_text {
+    text-align: center;
+    /* Styles for title_text */
+}
+
+.title_subtext {
+    /* Styles for title_subtext */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1200px) {
+    .options__element {
+        /* Adjust the flex-basis to 100% so each item takes full width of the .options__row */
+        flex-basis: 100%;
+    }
+}
+
+.options__element {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically if there's extra space */
+    flex-basis: 100%; /* Take full width of the container */
+    max-width: 300px; /* Maximum width of the items */
+    margin: 20px auto; /* Center the items with automatic margins on the sides */
+}
+
+
+/* If you have specific classes for the title, text, and button, you may want to ensure they are also centered */
+.title, .title_text, .title_subtext {
+    text-align: center; /* Center the text within these elements */
+    width: 100%; /* Ensure they take up the full width of their container */
+}
+.options__element img {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any extra space below the image */
+}
+.title{
+    padding-top: 70px;
+    height: 190px;
+
+}
+.title_text{
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+.title_subtext{
+    text-transform: uppercase;
+    
+    background-color: rgb(47, 49, 141);
+    max-width:fit-content;
+    margin: 0 auto;
+    height: 35px;
+    border-radius: 5px;
+    color: #fff;
+    padding: 0 10px;
+    
+}
+.title_subtext a, .title_subtext a:link, .title_subtext a:visited, .title_subtext a:hover, .title_subtext a:active, .title_subtext a:focus {
+    color: #fff; /* Keeps the text white */
+    text-decoration: none; /* No underline */
+    background-color: rgb(47, 49, 141); /* The original background color */
+    display: inline-block; /* To allow for padding and dimensions */
+    padding-top: 10px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    max-width: 150px; /* Or fit-content based on your preference */
+    box-sizing: border-box; /* Include padding in the height */
+}
+
+/* You might also want to add some hover effect to make it clear it's clickable */
+.title_subtext a:hover {
+    background-color: rgba(47, 49, 141, 0.8); /* Slightly lighter on hover */
+}
+.information_about_us {
+    max-width: 645px;
+    width: 100%;
+    margin: 50px auto; /* Adjusted for better spacing */
+    padding: 20px; /* Padding for better readability */
+    text-align: left; /* Align text to the left for better readability */
+    background-color: #f9f9f9; /* A light background color for contrast */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+.information__title {
+    font-size: 1.75rem; /* Larger font size for the title */
+    color: #333; /* Darker text for better readability */
+    margin-bottom: 20px; /* Space between title and content */
+    font-weight: bold; /* Bold for importance */
+}
+
+.information__subtitle {
+    font-style: normal; /* Unless you want it italic */
+    color: #555; /* Subtle color for the subtitle */
+    line-height: 1.6; /* Improved line height for reading */
+    margin-bottom: 30px; /* Space between paragraphs */
+}
+
+.read_more_about_us {
+    display: block; /* To ensure it's clickable if it's a link */
+    text-transform: uppercase; /* Style for call-to-action */
+    color: #fff; /* White text */
+    background-color: #333; /* Dark background for the button */
+    text-align: center; /* Center the text */
+    padding: 10px 20px; /* Padding for the button */
+    border-radius: 5px; /* Rounded corners for the button */
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+    text-decoration: none; /* Remove underline if it's a link */
+    font-weight: bold; /* Bold text for the button */
+}
+
+.read_more_about_us:hover {
+    background-color: #555; /* Slightly lighter on hover */
+    cursor: pointer; /* Change cursor to signify clickability */
+}
+
+
+
+
+/* 
+
+.title{
+    display: flex;
+    text-align: center;
+    background-color: #fff;
+    height: 190px;
+    padding-top: 70px;
+    min-width: 343px;
+
+    margin-right: 70px;
+    margin-bottom: 30px;
+
+
+}
+.title_text{
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.title_subtext{
+    text-transform: uppercase;
+    color: #fff;
+    
+    background-color:  rgb(47, 49, 141);
+    max-width: 150px;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding-top: 10px;
+    
+} */
+
+.footer {
+    background-color: rgb(47, 49, 141);
+    color: #fff;
+    padding: 40px 0; /* More padding for a spacious look */
+    font-family: 'Arial', sans-serif; /* Consistent font-family */
+}
+
+.footer_row {
+    display: flex;
+    justify-content: space-around; /* Changed from space-between for better spacing on wider screens */
+    flex-wrap: wrap; /* Wrap on smaller screens */
+    max-width: 1200px; /* Adjust max width for better centering */
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px; /* Padding for content within the footer */
+}
+
+.footer_column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns items to the left */
+    padding: 0 10px; /* Padding around each column */
+    min-width: 150px; /* Ensures that columns don't become too narrow */
+}
+
+.footer_title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.footer_link, .footer_text {
+    font-size: 1rem;
+    color: #ddd; /* Slightly lighter color for text */
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.footer_link:hover {
+    color: #fff; /* White color on hover for links */
+    text-decoration: underline; /* Underline on hover for better indication */
+}
+
+.footer__contact_us, .footer__social {
+    align-items: center; /* Center align for these specific columns if desired */
+}
+
+.social_links {
+    display: flex;
+    justify-content: start;
+}
+
+.social_link {
+    margin-right: 15px; /* Spacing between social icons */
+    display: inline-block; /* To apply margin and padding */
+}
+
+.social_icon {
+    width: 20px; /* Example size, adjust as needed */
+    height: 20px; /* Maintains aspect ratio */
+    fill: #ddd; /* Example fill color, if using SVGs */
+    transition: fill 0.3s ease;
+}
+
+.social_icon:hover {
+    fill: #fff; /* White fill on hover */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .footer_row {
+        justify-content: center;
+    }
+
+    .footer_column {
+        align-items: center; /* Center the content on smaller screens */
+        margin-bottom: 20px; /* Spacing between stacked columns */
+    }
+}
+.body__content{
+    padding: 20px 0px;
+    background-color: mintcream;
+}

@@ -1,0 +1,697 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+
+
+
+
+
+
+.body__content{
+    margin-top: 30px;
+
+}
+.body__row{
+    display: flex;
+    max-width: 1117px;
+    margin: 0 auto;
+    justify-content: space-around;
+    width: 100%;
+
+}
+.body__title{
+    color: aqua;
+    font-size: 35px;
+
+    color: rgb(130, 191, 224);
+    max-width: 475px;
+    margin: 0 auto;
+    font-weight: 600;
+    width: 100%;
+
+}
+.body__text{
+    max-width: 430px;
+    margin-top: 125px;
+    width: 100%;
+
+
+}
+.text__title{
+    font-size: 35px;
+    font-family: serif;
+    opacity: 75%;
+    word-spacing: 16px;
+    margin-bottom: 35px;
+
+}
+.text__content{
+    font-weight: bold;
+    word-spacing: 3px;
+    font-size: 13px;
+}
+.main__subtitle{
+    margin-bottom: 42px;
+
+}
+.secondary__subtitle{
+
+}
+
+
+.body__image{
+    max-width: 792px;
+    max-height: 559px;
+    margin-left: -107px;
+    width: 100%;
+}
+
+
+.body__buyer{
+    border: 1px solid black;
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    margin-bottom: 100px;
+    padding-bottom: 25px;
+    width: 100%;
+}
+.body__buyer_title{
+    background-color: rgb(47, 49, 141);
+    height: 64px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 15px;
+    color: white;
+}
+.body__buyer_form{
+
+
+}
+.form{
+    
+    padding-top: 30px;
+
+    max-width: 1050px;
+    margin: 0 auto;
+    width: 100%;
+
+}
+.form__input{
+    
+    
+    border: 1px solid black;
+    height: 38px;
+    width: 1050px;
+    margin: 0 auto;
+    margin-top: 7px;
+    margin-bottom: 25px;
+    width: 100%;
+
+
+}
+.form__label{
+    color: rgb(47, 49, 141);
+
+
+}
+/* 
+.body__buyer_footer{
+    
+    max-width: 199px;
+    margin: 0 auto;
+    width: 100%;
+
+    background-color: rgb(47, 49, 141);
+    height: 44px;
+    margin-top: 30px;
+
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+} */
+
+
+
+
+.form__message{
+    color: rgb(47, 49, 141);
+
+
+}
+.input__message{
+    margin-top: 7px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    height: 38px;
+    width: 1050px;
+    margin: 0 auto;
+    height: 160px;
+    width: 100%;
+
+}
+
+/* ------------------------------------------------------------ */
+
+
+
+
+
+
+/* -------------------------------------------------- */
+
+
+
+
+
+.footer{
+
+    background-color: rgb(47, 49, 141);
+
+
+}
+.footer_row{
+
+
+    display: flex;
+    max-width: 1006px;
+    margin: 0 auto;
+    justify-content: space-between;
+    color: #fff;
+    padding-top: 37px;
+    width: 100%;
+}
+.footer__explore{
+    
+
+}
+.footer_navigate{
+
+}
+.navigate__title{
+    font-size: 40px;
+
+}
+.footer_home{
+    margin-top: 6px;
+    margin-bottom: 6px;
+
+
+}
+.footer__home_link{
+    color: #fff;
+
+
+}
+.footer_about_us{
+
+    margin-bottom: 6px;
+}
+.footer__about_us_link{
+    color: #fff;
+
+
+}
+.footer_sell_your_house{
+    margin-bottom: 6px;
+
+}
+.footer__sell_your_house_link{
+    color: #fff;
+
+
+}
+.footer_current_projects{
+    margin-bottom: 6px;
+
+}
+.footer__current_projects_link{
+    color: #fff;
+
+
+}
+.footer_blog{
+    margin-bottom: 6px;
+
+}
+.footer__blog_link{
+    color: #fff;
+
+
+}
+
+
+
+
+
+
+.footer__contact_us{
+
+}
+.contact_us__title{
+
+    font-size: 40px;
+
+}
+.address{
+    margin-bottom: 6px;
+
+}
+.number{
+    margin-bottom: 6px;
+
+}
+.email{
+    margin-bottom: 6px;
+
+}
+
+
+
+.footer__social{
+
+}
+.social__title{
+    font-size: 40px;
+
+}
+.instagram{
+
+}
+.facebook{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+.body__background{
+    background: url("img/backgroundOfEvery.jpeg");
+    height: 100px;
+    padding-top: 35px;
+    font-size: 35px;
+    padding-left: 35px;
+    opacity: 90%;
+    width: 100%;
+}
+
+
+.home{
+    margin-right: 40px;
+
+}
+.home_link{
+    color: rgb(47, 49, 141);
+    
+
+}
+.about_us{
+    margin-right: 40px;
+
+
+}
+.about_us_link{
+    color: rgb(47, 49, 141);
+
+}
+.sell_your_house{
+    word-spacing: 5px;
+    margin-right: 40px;
+
+
+}
+.sell_your_house_link{
+    color: rgb(47, 49, 141);
+
+}
+.current_projects{
+    margin-right: 40px;
+    word-spacing: 5px;
+
+
+}
+.current_projects_link{
+    color: rgb(47, 49, 141);
+
+}
+.blog{
+
+
+}
+.blog_link{
+    color: rgb(47, 49, 141);
+
+}
+
+@media (max-width: 768px) {
+    /* Mobile styles */
+    .body__row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .body__title {
+        font-size: 25px;
+    }
+
+    .body__image {
+        max-width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .text__title {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .main__subtitle {
+        margin-bottom: 20px;
+    }
+
+    .footer_row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer__explore {
+        margin-bottom: 20px;
+    }
+    .logo_img{
+        display: none;
+    }
+    .navigate{
+        margin-bottom: 25px;
+    }
+    .header__links{
+
+        text-align: center;
+    }
+    .body__buyer{
+        margin-top: 50px;
+    }
+}
+.header{
+    background-color: rgb(47, 49, 141);
+    height: 50px;
+    width: 100%;
+    
+
+}
+.button__submit{
+    color: white;
+    background-color: rgb(47, 49, 141);
+}
+.header__links{
+    display: flex;
+    padding-top: 28px;
+    justify-content: end;
+    max-width: 645px;
+    margin: 0 auto;
+    width: 100%;
+
+
+}
+.header__links_contractors{
+    
+    margin-left: 20px;
+
+
+}
+.contractors{
+
+    color: white;
+}
+.header__links_investors{
+
+    margin-left: 20px;
+
+}
+.investors{
+    color: white;
+
+}
+.header__links_agents{
+    margin-left: 20px;
+
+
+}
+.agents{
+    color: white;
+
+}
+.header__links_contact_us{
+    margin-left: 20px;
+
+
+}
+.contact_us{
+    color: white;
+
+}
+.header__links_number{
+    margin-left: 20px;
+    color: white;
+
+}
+
+.content__logo{
+    display: flex;
+    max-width: 1045px;
+    margin: 0 auto;
+    width: 100%;
+
+}
+.logo_img{
+    max-width: 313px;
+    max-height: 222px;
+    
+    width: 100%;
+
+}
+.navigate{
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+    margin-left: 70px;
+
+
+}
+
+/* Apply a more modern font */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Center the logo and header text */
+.content__logo, .body__title {
+    text-align: center;
+}
+
+/* Style the form container */
+.body__buyer {
+    background-color: #fff; /* White background for the form area */
+    border-radius: 8px; /* Rounded corners for form */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Shadow for depth */
+    padding: 2em; /* Padding inside the form container */
+    max-width: 600px; /* Maximum width of the form */
+    margin: 2em auto; /* Center the form in the available space */
+}
+
+/* Style the form title */
+.body__buyer_title {
+    background-color: rgb(47, 49, 141); /* Brand color for header */
+    color: #fff; /* White text for contrast */
+    padding: 0.5em 0; /* Padding top and bottom */
+    margin: -2em -2em 2em -2em; /* Position it at the top of the form */
+    border-top-left-radius: 8px; /* Rounded corners on the header */
+    border-top-right-radius: 8px;
+}
+
+/* Input fields styling */
+.form__input, .input__message {
+    border: 1px solid #ccc; /* Subtle border color */
+    margin-bottom: 1em; /* Space between fields */
+    padding: 0.5em; /* Padding inside fields */
+    width: calc(100% - 1em); /* Full width minus padding for aesthetic */
+    border-radius: 4px; /* Matching border radius */
+}
+
+/* Adjust the width of input fields in the form */
+.form__label {
+    display: block; /* Make the label a block to match width of input */
+    margin-bottom: 0.5em; /* Space between label and input field */
+    color: #333; /* Dark color for the label for readability */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .form__input, .input__message {
+        width: calc(100% - 2em); /* Adjust width for mobile */
+    }
+}
+
+.button__submit {
+    background-color: rgb(47, 49, 141); /* Brand color for the button */
+    color: #fff; /* White text for contrast */
+    border: none; /* Remove default border */
+    padding: 0.75em 1.5em; /* Adequate padding for the size */
+    cursor: pointer; /* Cursor to pointer to indicate it's clickable */
+    border-radius: 4px; /* Rounded corners for the button */
+    font-size: 1em; /* Adequate font size */
+    display: inline-block; /* Allow the natural width of the button content */
+    text-align: center; /* Center the text inside the button */
+    text-decoration: none; /* Remove underline if the button is a link */
+    width: auto; /* Auto width according to content */
+    margin-top: 1em; /* Space before the submit button */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Shadow for depth */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover state for the button */
+.button__submit:hover {
+    background-color: #365899; /* Slightly darker on hover */
+}
+
+/* Center the button if it's within a form or a div */
+.form, .body__buyer_form {
+    text-align: center; /* Center-align child elements, like buttons */
+}
+
+/* If the button is within a flex container */
+.body__buyer_form {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+}
+
+.footer {
+    background-color: rgb(47, 49, 141);
+    color: #fff;
+    padding: 40px 0; /* More padding for a spacious look */
+    font-family: 'Arial', sans-serif; /* Consistent font-family */
+}
+
+.footer_row {
+    display: flex;
+    justify-content: space-around; /* Changed from space-between for better spacing on wider screens */
+    flex-wrap: wrap; /* Wrap on smaller screens */
+    max-width: 1200px; /* Adjust max width for better centering */
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px; /* Padding for content within the footer */
+}
+
+.footer_column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns items to the left */
+    padding: 0 10px; /* Padding around each column */
+    min-width: 150px; /* Ensures that columns don't become too narrow */
+}
+
+.footer_title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.footer_link, .footer_text {
+    font-size: 1rem;
+    color: #ddd; /* Slightly lighter color for text */
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.footer_link:hover {
+    color: #fff; /* White color on hover for links */
+    text-decoration: underline; /* Underline on hover for better indication */
+}
+
+.footer__contact_us, .footer__social {
+    align-items: center; /* Center align for these specific columns if desired */
+}
+
+.social_links {
+    display: flex;
+    justify-content: start;
+}
+
+.social_link {
+    margin-right: 15px; /* Spacing between social icons */
+    display: inline-block; /* To apply margin and padding */
+}
+
+.social_icon {
+    width: 20px; /* Example size, adjust as needed */
+    height: 20px; /* Maintains aspect ratio */
+    fill: #ddd; /* Example fill color, if using SVGs */
+    transition: fill 0.3s ease;
+}
+
+.social_icon:hover {
+    fill: #fff; /* White fill on hover */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .footer_row {
+        justify-content: center;
+    }
+
+    .footer_column {
+        align-items: center; /* Center the content on smaller screens */
+        margin-bottom: 20px; /* Spacing between stacked columns */
+    }
+}
