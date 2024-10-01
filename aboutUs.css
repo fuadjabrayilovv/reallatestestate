@@ -650,8 +650,13 @@ body {
     font-size: 14px;
 }
 
-/* Responsive image handling */
-img {
-    max-width: 100%;
-    height: auto;
+.instagram_icon{
+
+    max-width: 18px;
+    width: 100%;
+    max-height: 18px;
+    margin-top: -3px;
+    margin-left: 20px;
+
+
 }
