@@ -116,31 +116,22 @@
                             
                             
                         </form> -->
-                    <form method="post" id="user-form" class="form">
-                        <div class="container">
-
-
-
-
-                            <div id="solform">
-                                <!-- <label for="name">Name:</label> -->
-                                <input type="text" id="name" name="name" placeholder="name" class="form__input">
-                                <input type="text" id="phone" name="number" placeholder="phone" class="form__input">
+                        <form method="post" action="submitContact.php" id="user-form" class="form">
+                            <div class="container">
+                                <div id="solform">
+                                    <input type="text" id="name" name="name" placeholder="name" class="form__input" required>
+                                    <input type="text" id="phone" name="phone" placeholder="phone" class="form__input" required>
+                                </div>
+                                <div id="sagform">
+                                    <input type="email" id="email" name="email" placeholder="email" required class="form__input">
+                                    <input type="text" id="zip" name="zip" placeholder="zip" class="form__input" required>
+                                </div>
+                                <textarea name="message" id="message" placeholder="message" cols="30" rows="10" required class="form__input"></textarea>
+                                <input type="text" id="type" name="type" placeholder="type" class="form__input">
+                                <div class="body__buyer_footer"><button type="submit" class="button__submit">Submit</button></div>
                             </div>
-                            <div id="sagform">
-                                <input type="email" id="email" name="email" placeholder="email" required
-                                    class="form__input">
-                                <input type="text" id="zip" name="zip" placeholder="zip" class="form__input">
-                            </div>
-                            <textarea name="msg" id="message" placeholder="message" cols="30" rows="10" required
-                                class="form__input"></textarea>
-                            <input type="text" id="type" name="type" placeholder="type" class="form__input">
-                            <div class="body__buyer_footer"><button type="submit" class="button__submit">Submit</button>
-
-                                <!-- <button type="submit">Submit</button> -->
-
-                            </div>
-                    </form>
+                        </form>
+                        
 
 
 
