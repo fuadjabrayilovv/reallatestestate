@@ -170,57 +170,10 @@
             </div>
         </div>
     </div>
+    
     <script>
-        document.getElementById("myForm").addEventListener("submit", function (event) {
-            event.preventDefault(); // Prevent the default form submission behavior
-
-            // Get form input values
-            var name = document.getElementById("name").value;
-            var email = document.getElementById("email").value;
-            var phone = document.getElementById("Phone").value;
-            var zip = document.getElementById("zip").value;
-            var type = document.getElementById("Type").value;
-            var message = document.getElementById("Message").value;
-
-            // Create a data object to send as JSON
-            var data = {
-                name: name,
-                email: email,
-                number: phone,
-                zip: zip,
-                type: type,
-                message: message,
-            };
-
-            // Send a POST request to your Spring controller
-            fetch("/submitContact", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                },
-                body: JSON.stringify(data),
-            })
-                .then(function (response) {
-                    if (response.status === 200) {
-                        // Successfully submitted the form
-                        alert("Form submitted successfully!");
-                        document.getElementById("myForm").reset(); // Reset the form
-                    } else {
-                        // Handle other response statuses (e.g., error handling)
-                        alert("Error: Form submission failed.");
-                    }
-                })
-                .catch(function (error) {
-                    // Handle network or other errors
-                    alert("Error: " + error.message);
-                });
-        });
-    </script>
-
-
-    <script>
-        $("#user-form").submit(function (event) {
-            event.preventDefault();
+        $("#user-form").submit(function(event) {
+            event.preventDefault(); // Prevent default form submission
 
             var name = $("#name").val();
             var phone = $("#phone").val();
@@ -229,39 +182,26 @@
             var message = $("#message").val();
             var type = $("#type").val();
 
-
-
             // Send the data to the backend
             $.ajax({
                 type: "POST",
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                url: "http://localhost:8080/submitContact",
-                data: JSON.stringify({
+                url: "submitContact.php",
+                data: {
                     name: name,
                     phone: phone,
                     email: email,
                     zip: zip,
                     message: message,
                     type: type
-
-                }),
-                success: function (response) {
-                    alert("Tesekkurler!");
-                    location.reload();
-                    // $("#dialog-message").dialog({
-                    //     modal: true,
-                    //     buttons: {
-                    //         Ok: function () {
-                    //             $(this).dialog("close");
-                    //             location.reload();
-                    //         }
-                    //     }
-                    // });
                 },
-                error: function (error) {
-                    alert("Error: " + error);
+                success: function(response) {
+                    alert("Thank you! Your message has been sent.");
+                    location.reload();
+                },
+                error: function(xhr, status, error) {
+                    // This block will provide a detailed error message
+                    alert("Error: " + xhr.responseText + "\nStatus: " + status + "\nError: " + error);
+                    console.log(xhr); // Log the full error object for debugging
                 }
             });
         });
