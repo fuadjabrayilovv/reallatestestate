@@ -684,6 +684,17 @@ body {
     fill: #fff; /* White fill on hover */
 }
 
+.instagram_icon{
+
+    max-width: 18px;
+    width: 100%;
+    max-height: 18px;
+    margin-top: -3px;
+    margin-left: 20px;
+
+
+}
+
 /* Responsiveness */
 @media (max-width: 768px) {
     .footer_row {
@@ -695,3 +706,4 @@ body {
         margin-bottom: 20px; /* Spacing between stacked columns */
     }
 }
+
